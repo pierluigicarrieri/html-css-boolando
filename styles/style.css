@@ -72,6 +72,18 @@ main {
     width: 100%;
 }
 
+.brand, .price, .old-price {
+    font-size: 12px;
+}
+
+.price {
+    color: #ED0604;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
 .heart {
     padding: 0.5rem;
     border: none;
@@ -83,6 +95,25 @@ main {
 
 .heart:hover {
     color: #ED0604;
+}
+
+.promotions {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 7rem;
+    left: 0;
+}
+
+.discount{
+    font-size: 11px;
+    padding: 0.2rem 0.5rem;
+    background-color: #ED0604;
+}
+
+.sustainability {
+    font-size: 11px;
+    padding: 0.2rem 0.5rem;
+    background-color: #368323;
 }
 
 
