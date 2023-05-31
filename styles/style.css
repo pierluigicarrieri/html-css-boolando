@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 ul {
@@ -26,7 +27,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 nav {
@@ -38,9 +39,37 @@ nav {
     justify-content: space-between;
 }
 
-#boolean_logo {
+#boolean-logo {
     width: 100px;
     object-fit: contain;
 }
+
+main {
+    padding-top: 50px;
+}
+
+#main-container {
+    max-width: 920px;
+    height: 1000px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.row {
+    display: flex;
+    flex-basis: 33.3333%;
+    background-color: chartreuse;
+}
+
+.card {
+    width: 33.3333%;
+    background-color: azure;
+}
+
+.card img {
+    width: 100%;
+}
+
+
 
 
