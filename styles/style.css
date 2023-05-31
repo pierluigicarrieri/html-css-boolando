@@ -69,6 +69,18 @@ main {
     width: 100%;
 }
 
+.card img:nth-child(2) {
+    display: none;
+}
+
+.card:hover img:first-child {
+    display: none;
+}
+
+.card:hover img:nth-child(2) {
+    display: block;
+}
+
 .brand, .price, .old-price {
     font-size: 12px;
 }
