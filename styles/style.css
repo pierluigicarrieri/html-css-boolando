@@ -51,7 +51,6 @@ main {
 #main-container {
     max-width: 920px;
     margin: auto;
-    background-color: aqua;
 }
 
 .row {
@@ -59,13 +58,11 @@ main {
     padding-bottom: 2rem;
     display: flex;
     gap: 1rem;
-    background-color: chartreuse;
 }
 
 .card {
     width: calc(100% / 3);
     position: relative;
-    background-color: azure;
 }
 
 .card img {
@@ -114,6 +111,32 @@ main {
     font-size: 11px;
     padding: 0.2rem 0.5rem;
     background-color: #368323;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+}
+
+footer nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#company-name {
+    padding-left: 0.5em;
+}
+
+#legal-info li a, #find-us {
+    font-size: 10.5px;
+}
+
+#footer-icons-container {
+    padding-top: 0.5rem;
+}
+
+#footer-icons-container a i {
+    font-size: 1.2rem;
 }
 
 
