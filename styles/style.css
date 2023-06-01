@@ -67,6 +67,7 @@ main {
 
 .card img {
     width: 100%;
+    display: block;
 }
 
 .card img:nth-child(2) {
